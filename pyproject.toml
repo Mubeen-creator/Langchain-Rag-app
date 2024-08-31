@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "langchainProject"
+version = "0.1.0"
+description = ""
+authors = ["Mubeen <mmaj8855@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-core = "^0.2.35"
+langchain-google-genai = "^1.0.10"
+python-dotenv = "^1.0.1"
+langchain-huggingface = "^0.0.3"
+torch = "^2.4.0"
+torchvision = "^0.19.0"
+torchaudio = "^2.4.0"
+langchain = "^0.2.15"
+langchain-community = "^0.2.14"
+
+[tool.poetry.group.dev.dependencies]
+skip = "^0.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
